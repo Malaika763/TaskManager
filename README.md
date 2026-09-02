@@ -64,7 +64,7 @@ TaskManager/
 
 git clone https://github.com/Malaika763/TaskManager.git
 
-2. Create a virtualvirtualmentt
+2. Create a virtual environment
 
 python -m venv .venv
 
