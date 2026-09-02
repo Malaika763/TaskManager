@@ -62,10 +62,9 @@ TaskManager/
 
 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/TaskManager.git
-cd TaskManager
+git clone https://github.com/Malaika763/TaskManager.git
 
-2. Create a virtual environment
+2. Create a virtualvirtualmentt
 
 python -m venv .venv
 
