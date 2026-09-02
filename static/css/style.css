@@ -1,0 +1,115 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.task {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.task h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.task p {
+    color: #666;
+}
+
+button {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 8px;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Task button */
+.task button {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Delete button */
+.task a:last-child button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Add New Task button */
+.add-task-button {
+    background-color: #2ecc71;
+    color: white;
+    margin-top: 15px;
+}
+
+/* Forms */
+form {
+    background-color: white;
+    padding:25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Statistics */
+.stats {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.stats p {
+    margin: 8px 0;
+    font-size: 17px;
+}
